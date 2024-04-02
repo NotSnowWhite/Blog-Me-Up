@@ -5,11 +5,11 @@ formSubmit.addEventListener('click', function(event) {
     event.preventDefault;
     const Title = document.getElementById('title').value;
     const user = document.getElementById('userName').value;
-    const Cont = document.getElementById('content').value;
+    const Content = document.getElementById('content').value;
 //add to localStorage
-localStorage.setItem('Title', 'title');
-localStorage.setItem('user', 'userName');
-localStorage.setItem('content', 'content');
+localStorage.setItem('title', Title);
+localStorage.setItem('user', user);
+localStorage.setItem('content', Content);
 
 //force reset form after submission
 formSubmit.reset();

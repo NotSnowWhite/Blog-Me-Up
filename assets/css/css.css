@@ -1,0 +1,18 @@
+* {
+font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+background-color: pink;
+}
+
+h1 {
+font-size: 5px;
+color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+background-color: aqua;
+}

@@ -31,6 +31,8 @@ bottom: 35px;
 
 label {
     display: block;
+    text-align: center;
+
 }
 
 div {
@@ -43,19 +45,19 @@ div {
     margin: 0 30px;
     text-align: center;
     position: relative;
-left: 25%;
+left: 26.5%;
 }
 
 .content-box {
     margin: 15px auto;
-    position: relative;
-    margin-left: 250px;
+   
 }
 
 #content {
     height: 100px;
     width:500px;
-
+    position: relative;
+    margin-left: 250px;
 }
 
 button {
@@ -69,6 +71,6 @@ padding: 10px;
 footer {
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 60px;
     
 }

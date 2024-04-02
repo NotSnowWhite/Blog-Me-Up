@@ -1,76 +1,81 @@
 * {
-font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 
 }
+
 html {
     /* box-shadow: inset 4px 4px 14px; */
 }
 
 body {
-background-color: pink;
+    background-color: pink;
 }
 
+/* centers and raises header and adds outline and underline */
 h1 {
-font-size: 110px;
-border-bottom: 2px solid grey;
--webkit-text-stroke: 2px grey;
-text-align: center;
-color: aliceblue;
-position: relative;
-top: -50px;
+    font-size: 110px;
+    border-bottom: 2px solid grey;
+    -webkit-text-stroke: 2px grey;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    top: -50px;
 }
 
+/* creates a blue box smaller than the width of the page for the content of the form to live in. raises and centers box*/
 form {
-background-color: aqua;
-width: 80%;
-margin: 0 auto;
-padding: 15px;
-position: relative;
-bottom: 35px;
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    bottom: 35px;
 }
 
+/* centers text */
 label {
     display: block;
     text-align: center;
 
 }
 
-div {
-    margin: 5px auto;
-}
-
+/* makes the first two inputs sit on the same line side by side and centers in box */
 .title-form {
-    
+
     display: inline-block;
     margin: 0 30px;
     text-align: center;
     position: relative;
-left: 26.5%;
+    left: 26.5%;
 }
 
+/* adds space between content box and other input boxes */
 .content-box {
     margin: 15px auto;
-   
+
 }
 
+/* moves the content input box over */
 #content {
     height: 100px;
-    width:500px;
+    width: 500px;
     position: relative;
     margin-left: 250px;
 }
 
+/* makes the button fill up the form box and the text center in button */
 button {
-display: flex;
-justify-content: center;
-width: 100%;
-margin: 10px auto;
-padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
 }
 
+/* centers portfolio link and places at the bottom of the page */
 footer {
     text-align: center;
     position: relative;
     top: 60px;
-    
+
 }

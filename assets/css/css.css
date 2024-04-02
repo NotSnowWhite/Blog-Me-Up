@@ -11,7 +11,7 @@ background-color: pink;
 }
 
 h1 {
-font-size: 125px;
+font-size: 110px;
 border-bottom: 2px solid grey;
 -webkit-text-stroke: 2px grey;
 text-align: center;
@@ -26,7 +26,7 @@ width: 80%;
 margin: 0 auto;
 padding: 15px;
 position: relative;
-bottom: 25px;
+bottom: 35px;
 }
 
 label {
@@ -43,17 +43,19 @@ div {
     margin: 0 30px;
     text-align: center;
     position: relative;
-left: 20%;
+left: 25%;
 }
 
+.content-box {
+    margin: 15px auto;
+    position: relative;
+    margin-left: 250px;
+}
 
 #content {
     height: 100px;
     width:500px;
-max-height: 100px;
-margin: 0 auto;
-position: relative;
-left: 50px;
+
 }
 
 button {
@@ -67,6 +69,6 @@ padding: 10px;
 footer {
     text-align: center;
     position: relative;
-    top: 60px;
+    top: 40px;
     
 }

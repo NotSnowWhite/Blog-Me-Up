@@ -21,7 +21,7 @@ top: -50px;
 }
 
 form {
-
+ 
 background-color: aqua;
 width: 80%;
 margin: 0 auto;
@@ -32,7 +32,11 @@ div {
 }
 
 .title-form {
-    display: inline;
+    
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    
 
 }
 
@@ -41,6 +45,7 @@ div {
     height: 100px;
     width:500px;
 max-height: 100px;
+margin: 5px 50px;
 }
 
 button {

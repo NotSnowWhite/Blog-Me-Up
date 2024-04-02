@@ -21,10 +21,16 @@ top: -50px;
 }
 
 form {
- 
 background-color: aqua;
 width: 80%;
 margin: 0 auto;
+padding: 15px;
+position: relative;
+bottom: 25px;
+}
+
+label {
+    display: block;
 }
 
 div {
@@ -34,10 +40,10 @@ div {
 .title-form {
     
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 30px;
     text-align: center;
-    
-
+    position: relative;
+left: 20%;
 }
 
 
@@ -45,7 +51,9 @@ div {
     height: 100px;
     width:500px;
 max-height: 100px;
-margin: 5px 50px;
+margin: 0 auto;
+position: relative;
+left: 50px;
 }
 
 button {

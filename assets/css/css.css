@@ -1,5 +1,10 @@
 * {
 font-family: 'Courier New', Courier, monospace;
+
+}
+html {
+    box-shadow: inset 4px 4px 14px;
+
 }
 
 body {

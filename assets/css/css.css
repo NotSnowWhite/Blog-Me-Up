@@ -4,7 +4,6 @@ font-family: 'Courier New', Courier, monospace;
 }
 html {
     box-shadow: inset 4px 4px 14px;
-
 }
 
 body {
@@ -20,7 +19,25 @@ color: aliceblue;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
 background-color: aqua;
+}
+
+div {
+    margin: 5px auto;
+    display: flex;
+justify-content: center;
+}
+
+button {
+display: flex;
+justify-content: center;
+width: 100%;
+margin: 10px auto;
+padding: 10px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 160px;
 }

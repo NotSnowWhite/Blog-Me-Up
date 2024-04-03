@@ -11,9 +11,11 @@ formSubmit.addEventListener('click', function(event) {
         user: user,
         content: Content
     };
-    const formDataString = ;
+    const formDataString = JSON.stringify(formData);
 
 //add to localStorage
-localStorage.setItem('formData', JSON.stringify(formData));
+localStorage.setItem('formData', formDataString);
+
+
 } )
 

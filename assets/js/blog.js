@@ -23,10 +23,17 @@ darkLight.addEventListener('click', function(event) {
 });
 
 // function for retrieving data in storage
-const data = localStorage.getItem('formData');
+const data = JSON.parse(localStorage.getItem('formData'));
 
 
 // pulling a place to put data
 const titleEl = document.getElementById('title');
 const userEl = document.getElementById('user');
 const contentEl = document.getElementById('content');
+
+// display data
+if (data) {
+titleEl.textContent = data.title;
+userEl.textContent = data.user;
+contentEl.textContent = data.content;
+}

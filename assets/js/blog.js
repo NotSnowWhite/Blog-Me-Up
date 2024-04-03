@@ -16,5 +16,5 @@ darkLight.addEventListener('click', function(event) {
         document.querySelector('body').style.color = 'purple';
     }
     dark = !dark;
+});
 
-})

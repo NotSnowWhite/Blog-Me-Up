@@ -1,4 +1,14 @@
+/* purple background on load */
 body {
     background-color: purple;
     color: pink;
+}
+
+/* header size and position */
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    border: 4px dashed white;
+    margin: 0 250px;
 }

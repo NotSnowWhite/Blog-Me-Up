@@ -17,7 +17,5 @@ formSubmit.addEventListener('click', function(event) {
 localStorage.setItem('formData', formDataString);
 
 
-//force reset form after submission
-formSubmit.reset();
 } )
 

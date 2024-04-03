@@ -1,6 +1,6 @@
 const btn = document.getElementById('back');
 const darkLight = document.getElementById('dark-light');
-let dark = true;
+let dark = false;
 
 btn.addEventListener('click', function() {
     window.history.back();

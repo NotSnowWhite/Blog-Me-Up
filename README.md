@@ -25,6 +25,6 @@ N/A
 ## Acknowledgements
 N/A
 
-[Blog Stuff Now!](https://notsnowwhite.github.io/A-Clever-Way-To-Calculate-Your-Pay/) 
+[Blog Stuff Now!](https://notsnowwhite.github.io/Blog-Me-Up/) 
 
 ![Screenshot of the homepage of the blog](./assets/images/ss1.png)

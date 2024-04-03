@@ -23,7 +23,16 @@ darkLight.addEventListener('click', function(event) {
 });
 
 // function for retrieving data in storage
-const title = localStorage.getItem('Title')
-const user = localStorage.getItem('user')
-const content = localStorage.getItem('content')
+const title = localStorage.getItem('title');
+const user = localStorage.getItem('user');
+const content = localStorage.getItem('content');
 
+// pulling a place to put data
+const titleEl = document.getElementById('title');
+const userEl = document.getElementById('user');
+const contentEl = document.getElementById('content');
+
+// display data
+titleEl.textContent = title;
+userEl.textContent = user;
+contentEl.textContent = content;

@@ -22,7 +22,7 @@ darkLight.addEventListener('click', function(event) {
     dark = !dark;
 });
 
-// function for retrieving data in storage
+// retrieving data in storage
 const data = JSON.parse(localStorage.getItem('formData'));
 
 
@@ -36,4 +36,5 @@ if (data) {
 titleEl.textContent = data.title;
 userEl.textContent = data.user;
 contentEl.textContent = data.content;
+
 }

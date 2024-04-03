@@ -23,3 +23,7 @@ darkLight.addEventListener('click', function(event) {
 });
 
 // function for retrieving data in storage
+const title = localStorage.getItem('Title')
+const user = localStorage.getItem('user')
+const content = localStorage.getItem('content')
+

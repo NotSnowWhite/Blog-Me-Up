@@ -2,7 +2,7 @@
 const formSubmit = document.querySelector('button');
 //create a function to run on click of sub button that will save input to local storage
 formSubmit.addEventListener('click', function(event) {
-    event.preventDefault;
+    event.preventDefault();
     const Title = document.getElementById('title').value;
     const user = document.getElementById('userName').value;
     const Content = document.getElementById('content').value;
@@ -11,11 +11,15 @@ formSubmit.addEventListener('click', function(event) {
         user: user,
         content: Content
     };
-    const formDataString = JSON.stringify(formData);
+console.log(formData);
+    let data = JSON.parse(localStorage.getItem('formData')) || [];
+
+    data.push(formData);
+    const formDataString = JSON.stringify(data);
 
 //add to localStorage
 localStorage.setItem('formData', formDataString);
-
+document.location.href = './blog.html';
 
 } )
 

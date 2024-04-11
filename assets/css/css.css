@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: lavender;
 }
 
 /* centers and raises header and adds outline and underline */
@@ -13,14 +13,18 @@ h1 {
     border-bottom: 2px solid grey;
     -webkit-text-stroke: 2px grey;
     text-align: center;
-    color: aliceblue;
+    color: lavender;
+    background-color: rgb(150, 129, 171);
+    border-radius: 10px;
+    width: 80%;
+    margin: 75px auto;
     position: relative;
     top: -50px;
 }
 
 /* creates a blue box smaller than the width of the page for the content of the form to live in. raises and centers box*/
 form {
-    background-color: aqua;
+    background-color: rgb(150, 129, 171);
     width: 80%;
     margin: 0 auto;
     padding: 15px;
@@ -32,29 +36,37 @@ form {
 label {
     display: block;
     text-align: center;
-
+font-weight: 600;
+margin: 8px;
 }
 
 /* makes the first two inputs sit on the same line side by side and centers in box */
 .title-form {
     display: inline-block;
-    margin: 0 30px;
+    margin: 5px 30px;
     text-align: center;
     position: relative;
     left: 26.5%;
 }
 
-/* adds space between content box and other input boxes */
-.content-box {
-    margin-right: 10%;
-}
-
-/* moves the content input box over */
+/* content input box  */
 #content {
     height: 100px;
     width: 500px;
     position: relative;
     margin-left: 250px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+background-color: lavender;
+}
+
+#title {
+    background-color: lavender;
+}
+
+#userName {
+    background-color: lavender;
+
 }
 
 /* makes the button fill up the form box and the text center in button */
@@ -64,6 +76,8 @@ button {
     width: 100%;
     margin: 10px auto;
     padding: 10px;
+    background-color: lavender;
+    font-weight: 600;
 }
 
 /* centers portfolio link and places at the bottom of the page */

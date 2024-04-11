@@ -18,15 +18,22 @@ function toggle() {
         }
         document.querySelector('body').style.backgroundColor = 'purple';
         document.querySelector('body').style.color = 'pink';
+        document.querySelector('h1').style.backgroundColor = '';
+        document.querySelector('#back').style.backgroundColor = '';
+        document.querySelector('#dark-light').style.backgroundColor = '';
 
     } else {
         let cards = document.getElementsByClassName('container');
         for (let index = 0; index < cards.length; index++) {
             const cardColor = cards[index];
-            cardColor.style.backgroundColor = 'red';
+            cardColor.style.backgroundColor = 'plum';
         }
         document.querySelector('body').style.backgroundColor = 'pink';
         document.querySelector('body').style.color = 'purple';
+        document.querySelector('h1').style.backgroundColor = 'plum';
+        document.querySelector('#back').style.backgroundColor = 'plum';
+        document.querySelector('#dark-light').style.backgroundColor = 'plum';
+
     }
     dark = !dark;
 

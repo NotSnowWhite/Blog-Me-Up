@@ -1,17 +1,14 @@
 // variables I wanted to change
 const btn = document.getElementById('back');
 const darkLight = document.getElementById('dark-light');
-let dark = false;
+let dark = true;
 
 // function fires on click and goes back to previous web history page
 btn.addEventListener('click', function () {
     window.history.back();
 });
-
-// function fires on click and toggles color of background and text every click
-darkLight.addEventListener('click', function (event) {
-    // prevent default prevents the default action of the button (type:submit) from reloading
-    event.preventDefault();
+//  function to be called on page load and on click of toggle button
+function toggle() {
     if (dark) {
         // loops through all .container elements and changes card background color for readability
         let cards = document.getElementsByClassName('container');
@@ -32,6 +29,17 @@ darkLight.addEventListener('click', function (event) {
         document.querySelector('body').style.color = 'purple';
     }
     dark = !dark;
+
+}
+// dark appears on load with container colors
+document.addEventListener('DOMContentLoaded', function() {
+    toggle();
+});
+// function fires on click and toggles color of page
+darkLight.addEventListener('click', function (event) {
+    // prevent default prevents the default action of the button (type:submit) from reloading
+    event.preventDefault();
+  toggle();
 });
 
 // retrieving data in Localstorage

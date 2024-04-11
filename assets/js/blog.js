@@ -13,9 +13,21 @@ darkLight.addEventListener('click', function (event) {
     // prevent default prevents the default action of the button (type:submit) from reloading
     event.preventDefault();
     if (dark) {
+        // loops through all .container elements and changes card background color for readability
+        let cards = document.getElementsByClassName('container');
+        for (let index = 0; index < cards.length; index++) {
+            const cardColor = cards[index];
+            cardColor.style.backgroundColor = 'rgba(0, 0, 0, 0.491)';
+        }
         document.querySelector('body').style.backgroundColor = 'purple';
         document.querySelector('body').style.color = 'pink';
+
     } else {
+        let cards = document.getElementsByClassName('container');
+        for (let index = 0; index < cards.length; index++) {
+            const cardColor = cards[index];
+            cardColor.style.backgroundColor = 'red';
+        }
         document.querySelector('body').style.backgroundColor = 'pink';
         document.querySelector('body').style.color = 'purple';
     }

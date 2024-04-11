@@ -18,14 +18,14 @@ h1 {
 
     margin: 15px auto;
 }
-
+/* card colors and positions */
 .container {
     border: 1px solid lavender;
     display: inline-block;
     margin: 5px 10px;
     width: 30%;
     padding: 8px;
-    background-color: rgba(0, 0, 0, 0.717);   
+    /* background-color: rgba(0, 0, 0, 0.491);    */
 }
 /* buttons styling and position */
 button {

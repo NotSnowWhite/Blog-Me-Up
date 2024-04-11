@@ -1,8 +1,8 @@
 //pull the thing we want to manipulate(the submit button)
 const formSubmit = document.querySelector('button');
 const form = document.querySelector('form');
-//create a function to run on click of sub button that will save input to local storage
-formSubmit.addEventListener('click', function(event) {
+//create a function to run on submit of sub button that will save input to local storage
+formSubmit.addEventListener('submit', function(event) {
     event.preventDefault();
     const Title = document.getElementById('title').value;
     const user = document.getElementById('userName').value;

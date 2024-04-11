@@ -9,6 +9,27 @@ h1 {
     font-size: 50px;
     font-family: cursive;
     text-align: center;
-    border: 4px dashed white;
+    border: 4px dashed lavender;
     margin: 0 250px;
+    background-color: rgba(0, 0, 0, 0.491);   
+}
+
+#posts {
+
+    margin: 15px auto;
+}
+
+.container {
+    border: 1px solid lavender;
+    display: inline-block;
+    margin: 5px 10px;
+    width: 30%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.717);   
+}
+
+button {
+height: 40px;
+width: 10%;
+background-color: blueviolet;
 }

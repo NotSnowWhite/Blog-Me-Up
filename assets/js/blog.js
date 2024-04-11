@@ -33,13 +33,16 @@ const postsEl = document.getElementById('posts');
 //  loop through the data array and create an element for each entry/ display data
 for (let index = 0; index < data.length; index++) {
     const entry = data[index];
+    const containerDiv = document.createElement('div');
+    containerDiv.classList.add('container');
     const h2El = document.createElement('h2');
     h2El.textContent = entry.title;
     const pEl1 = document.createElement('p');
     pEl1.textContent = entry.user;
     const pEl2 = document.createElement('p');
     pEl2.textContent = entry.content;
-    postsEl.append(h2El, pEl1, pEl2);
+    containerDiv.append(h2El, pEl1, pEl2);
+    postsEl.appendChild(containerDiv);
 
 }
 

@@ -41,7 +41,6 @@ label {
 
 /* makes the first two inputs sit on the same line side by side and centers in box */
 .title-form {
-
     display: inline-block;
     margin: 0 30px;
     text-align: center;
@@ -51,8 +50,7 @@ label {
 
 /* adds space between content box and other input boxes */
 .content-box {
-    margin: 15px auto;
-
+    margin-right: 10%;
 }
 
 /* moves the content input box over */
@@ -77,5 +75,48 @@ footer {
     text-align: center;
     position: relative;
     top: 60px;
+
+}
+
+/* media queries */
+@media screen and (max-width: 425px) {
+    body {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+    
+    form div {
+        overflow: auto;
+        height: 20%;
+        margin: 2% auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    form div {
+        overflow: auto;
+        height: 20%;
+        margin: 2% auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 920px) {
+    body {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+
+    form div {
+        overflow: auto;
+        height: 20%;
+        margin: 2%;
+    }
 
 }

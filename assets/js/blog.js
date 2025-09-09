@@ -3,10 +3,10 @@ const btn = document.getElementById('back');
 const darkLight = document.getElementById('dark-light');
 let dark = true;
 
-// function fires on click and goes back to previous web history page
+// function fires on click and goes to the new post (index.html) page
 btn.addEventListener('click', function () {
-    window.history.back();
-}); 
+    window.location.href = 'index.html';
+});
 //  function to be called on page load and on click of toggle button
 function toggle() {
     if (dark) {

@@ -6,7 +6,7 @@ let dark = true;
 // function fires on click and goes back to previous web history page
 btn.addEventListener('click', function () {
     window.history.back();
-});
+}); 
 //  function to be called on page load and on click of toggle button
 function toggle() {
     if (dark) {

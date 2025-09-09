@@ -11,7 +11,7 @@ form.addEventListener('submit', function(event) {
         title: Title,
         user: user,
         content: Content
-    };
+    }; 
 console.log(formData);
     let data = JSON.parse(localStorage.getItem('formData')) || [];
     data.push(formData);
